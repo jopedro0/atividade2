@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(53, 53, 53);
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    text-decoration: none;
+}
+

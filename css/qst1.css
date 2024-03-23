@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+   
+}
+
+div{
+    width: 200px;
+    height: 200px; 
+    background-color: aquamarine;
+    
+}
