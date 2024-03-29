@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    animation: mover 2s linear;
+}
+
+@keyframes mover {
+    0% {
+        justify-content: center;
+        align-items: center;
+    }
+
+    100% {
+        justify-content: start;
+        align-items: start;
+        transform: translate(-100%, -100%);
+        width: 70px;
+        height: 70px;
+    }
+
+}

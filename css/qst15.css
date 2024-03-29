@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(53, 53, 53);
+}
+
+div{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-left: 50px;
+    animation: quicar 1s linear 0.3s ;
+}
+
+@keyframes quicar{
+    25%,75%{
+        transform: translate(50%, -70%);
+    }
+    50%,100%{
+        transform: translate(90%, 0%);
+    }
+
+}

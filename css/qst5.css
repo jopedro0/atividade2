@@ -10,10 +10,11 @@ div{
     width: 200px;
     height: 200px; 
     background-color: aquamarine;
-    
+    animation: mover 3s infinite;
 }
 
-div:hover{
-    background-color: black;
-    transition: all 0.3s linear;
+@keyframes mover{
+    100%{
+        transform: rotate(45deg);
+    }
 }

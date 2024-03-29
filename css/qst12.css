@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background-color: rgb(53, 53, 53);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:wrap;
+    height: 200px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    animation: descer 1s forwards;
+    opacity: 10%;
+}
+
+input, button{
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(109, 109, 109);
+}
+
+
+@keyframes descer{
+    100%{
+        transform: translateY(100%);
+        opacity: 100%;
+    }
+}

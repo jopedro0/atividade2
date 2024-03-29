@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,24 +6,22 @@ body{
     background-color: rgb(53, 53, 53);
 }
 
-div{
+div {
     width: 200px;
-    height: 200px; 
+    height: 200px;
     background-color: aquamarine;
     border-radius: 50%;
-    
+    animation: pulsar 2s linear 0.5s 3;
 }
 
-div:hover{
-    animation: mod 1s forwards;
-}
+@keyframes pulsar {
 
-@keyframes mod{
-   
+    50%{
+        width: 400px;
+        height: 400px;
+    }
     100%{
-        width: 500px;
-        height: 500px; 
-        background-color: rgb(226, 192, 43);
-
+        width: 200px;
+        height: 200px;
     }
 }
