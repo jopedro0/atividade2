@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(53, 53, 53);
+}
+
+div{
+    width: 200px;
+    height: 200px; 
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.caixa1{
+    animation: mover1 5s infinite linear;
+}
+
+.caixa2{
+    animation: mover1 5s infinite linear 2s;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.caixa3{
+    animation: mover1 5s infinite linear 4s;
+}
+
+@keyframes mover1{
+    25%{
+        transform: translateY(-150px);
+    }
+    50%{
+        transform: translateY(150px);
+    }
+
+}
+
+@keyframes mover2{
+    25%{
+        transform: translateY(-150px);
+    }
+    50%{
+        transform: translateY(150px);
+    }
+
+}
+
+@keyframes mover3{
+    25%{
+        transform: translateY(-150px);
+    }
+    50%{
+        transform: translateY(150px);
+    }
+
+}

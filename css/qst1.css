@@ -6,9 +6,17 @@ body{
     background-color: rgb(53, 53, 53);
 }
 
-div{
+.caixa{
     width: 200px;
     height: 200px; 
     background-color: aquamarine;
     
 }
+
+.voltar{
+    display: flex;
+    align-self: end;
+
+    border-radius: 50%;
+}
+
