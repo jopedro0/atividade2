@@ -22,9 +22,9 @@ div {
     }
 
     100% {
-        justify-content: start;
-        align-items: start;
-        transform: translate(-100%, -100%);
+        position: absolute;
+        top:0%;
+        left: 0%;
         width: 70px;
         height: 70px;
     }
