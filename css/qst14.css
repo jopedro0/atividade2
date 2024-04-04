@@ -17,7 +17,7 @@ div:hover {
     animation: transform 1s forwards;
 }
 
-a{
+.voltar{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -32,6 +32,23 @@ a{
     position: absolute;
     top: 0%;
     left: 0%;
+}
+
+.qst15{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 
 @keyframes transform {

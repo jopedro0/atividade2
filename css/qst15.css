@@ -33,7 +33,7 @@ a{
 }
 
 @keyframes quicar{
-    25%,75%{
+    25%{
         transform: translate(50%, -70%);
     }
     50%,100%{

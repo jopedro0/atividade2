@@ -13,7 +13,7 @@ body{
     
 }
 
-a{
+.voltar{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -30,3 +30,19 @@ a{
     left: 0%;
 }
 
+.qst2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+    position: absolute;
+    top: 00%;
+    right: 0%;
+}
