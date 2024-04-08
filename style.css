@@ -20,18 +20,6 @@ section{
     grid-template-columns: repeat(3,0fr);
 }
 
-div{
-    font-family: helvetica;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-}
-
 a{
     height: 50px;
     width: 50px;
@@ -47,4 +35,9 @@ a{
 
 a:visited{
     text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(155, 137, 113);
+    transition: all 0.2s linear;
 }

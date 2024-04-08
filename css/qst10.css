@@ -10,9 +10,8 @@ body {
 div {
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
     border-radius: 50%;
-    animation: mover 2s linear forwards;
+    animation: mover 2s linear 1s forwards;
     background-image: url(../img/logo-ytm.png);
     background-size: cover;
 }
@@ -30,7 +29,7 @@ div {
     color: rgb(46, 46, 46);
     font-size: 25px;
     position: absolute;
-    top: 9%;
+    top: 0%;
     right: 0%;
 }
 
@@ -47,7 +46,24 @@ div {
     color: rgb(46, 46, 46);
     font-size: 25px;
     position: absolute;
-    top: 0%;
+    top: 10%;
+    right: 0%;
+}
+
+.menu{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+    position: absolute;
+    top: 20%;
     right: 0%;
 }
 
